@@ -2,7 +2,7 @@
 
 ## LAB - 2
 About me
-I build an app with a direct and powerful purpose. It does all of the things that it accomplishes well. I should describe the purpose and functionality so those that visit my README understand the app
+This is an about me guessing game. It uses HTML, JS, and CSS. It includes¸
 
 ### Author: Benjamin Carter
 - Links and Resources
