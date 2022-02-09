@@ -79,3 +79,29 @@ if (answerFive === yes || answerFive === y) {
 } else {
     console.log('Please answer with a yes or no');
 }
+
+// Question Six
+
+let numGuess = prompt(`Okay ${userName} Guess a number between 0 and 10. Whole numbers only!`);
+let correctNum = Math.floor(Math.random() * 10);
+let i = 0;
+
+// While `i` is less than or equal too 6 Loop through the If else statement. which checks if the number is high or low. If the guess is correct, break out of the while loop. 
+while (i <= 6) {
+    i++;
+    if (numGuess > correctNum) {
+        alert(`Your guess of ${numGuess} Is too high! Guess again.`);
+        numGuess = prompt(`Enter a new guess ${userName}, your last guess of ${numGuess} was too high.`);
+    } else if (numGuess < correctNum) {
+        alert(`Your guess of ${numGuess} is too low! Guess again.`);
+        numGuess = prompt(`Enter a new guess ${userName}, your last guess of ${numGuess} was too low. `);
+    } else {
+        alert(`You got it ${userName}! the correct number is ${correctNum} and it took you ${i} guesses.`);
+        break;
+    }
+}
+
+
+
+
+
