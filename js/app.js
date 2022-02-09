@@ -19,10 +19,10 @@ const n = 'N';
 
 if (answerOne === yes || answerOne === y) {
     alert(`I do not ${userName}! I've got a great kitty cat.`);
-    console.log('You are wrong, I dont have a dog.');
+    //console.log('You are wrong, I dont have a dog.');
 } else if (answerOne === no || answerOne === n){
     alert(`You got it ${userName}! No puppy in my life.`);
-    console.log('Nailed it! I\'ve got a wonderful cat!');
+    // console.log('Nailed it! I\'ve got a wonderful cat!');
 } else {
     console.log('Please answer with a yes or no');
 }
@@ -32,10 +32,10 @@ let answerTwo = prompt('Am I married?').toUpperCase();
 
 if (answerTwo === yes || answerTwo === y) {
     alert(`That is correct ${userName}! I got married in August of 2020.`);
-    console.log('You got it! I am married.');
+    // console.log('You got it! I am married.');
 } else if (answerTwo === no || answerTwo === n) {
     alert(`Sorry that is incorrect ${userName}. I got married in August of 2020.`);
-    console.log('Sorry thats wrong. I am married.');
+    // console.log('Sorry thats wrong. I am married.');
 } else {
     console.log('Please answer with a yes or no');
 }
@@ -45,10 +45,10 @@ let answerThree = prompt('Am I a musician?').toUpperCase();
 
 if (answerThree === yes || answerThree === y) {
     alert(`I think the term is a little generous for what I do, but you are correct ${userName}.`);
-    console.log('Correct! Ben poorly plays guitar in a terrible punk band!');
+    // console.log('Correct! Ben poorly plays guitar in a terrible punk band!');
 } else if (answerThree === no || answerThree === n) {
     alert(`You get partial credit ${userName}. I dont think of myself as one, but I do play guitar.`);
-    console.log('Incorrect! I play guitar in a really bad punk band.');
+    // console.log('Incorrect! I play guitar in a really bad punk band.');
 } else {
     console.log('Please answer with a yes or no');
 }
@@ -58,10 +58,10 @@ let answerFour = prompt('Am I a Washington state native?').toUpperCase();
 
 if (answerFour === yes || answerFour === y) {
     alert(`Nailed it! ${userName}. Born and raised here in the evergreen state!`);
-    console.log('Correct answer! I was born in Everett.');
+    // console.log('Correct answer! I was born in Everett.');
 } else if (answerFour === no || answerFour === n) {
     alert(`Ah, sorry ${userName}, I am a Washington state native.`);
-    console.log('answered incorrectly. I was born in Everett.');
+    // console.log('answered incorrectly. I was born in Everett.');
 } else {
     console.log('Please answer with a yes or no');
 }
@@ -71,10 +71,10 @@ let answerFive = prompt('Am I ambidextrous?').toUpperCase();
 
 if (answerFive === yes || answerFive === y) {
     alert(`Thats right ${userName}, I swap between left and right hand depending on the task I am doing.`);
-    console.log('Correct answer! I am ambidextrous.');
+    // console.log('Correct answer! I am ambidextrous.');
 } else if (answerFive === no || answerFive === n) {
     alert(`Ah darn, wrong answer ${userName}.`);
-    console.log('Incorrect answer, I am.');
+    // console.log('Incorrect answer, I am.');
 } else {
     console.log('Please answer with a yes or no');
 }
