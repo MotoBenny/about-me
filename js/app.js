@@ -9,6 +9,7 @@ function capitalizeFirstLetter(string) {
 }
 
 let userName = capitalizeFirstLetter(prompt('Hello and welcome! Whats your name?'));
+alert(`Welcome ${userName}, Here is a handful of questions about me!`);
 
 // question one for About me
 let answerOne = prompt('Do I have a puppy?').toUpperCase();
@@ -20,7 +21,7 @@ const n = 'N';
 if (answerOne === yes || answerOne === y) {
     alert(`I do not ${userName}! I've got a great kitty cat.`);
     //console.log('You are wrong, I dont have a dog.');
-} else if (answerOne === no || answerOne === n){
+} else if (answerOne === no || answerOne === n) {
     alert(`You got it ${userName}! No puppy in my life.`);
     // console.log('Nailed it! I\'ve got a wonderful cat!');
 } else {
