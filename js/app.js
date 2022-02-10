@@ -92,7 +92,9 @@ let correctNum = Math.floor(Math.random() * 10);
 let i = 0;
 
 // While `i` is less than or equal too 5 Loop through the if else statement. which checks if the number is high or low. If the guess is correct, break out of the while loop.
-while (i < 5) {
+// I still need to tell the user what the correct number was if they run out of guesses.
+
+while (i < 3) {
     i++;
     if (numGuess > correctNum) {
         alert(`Your guess of ${numGuess} Is too high! Guess again.`);
@@ -106,6 +108,7 @@ while (i < 5) {
         break;
     }
 }
+alert(`Sorry ${userName}, You've run out of guesses. The correct number was ${correctNum}`);
 
 // question 7
 // create an array with multiple objects. These objects are the possible correct answers to a question.
@@ -147,3 +150,33 @@ for (turn = 0; turn < attempts; turn++) {
 }
 
 alert(`Okay, ${userName} you got ${correctAnswers} out of 7 questions correct!`);
+
+
+
+
+/*
+
+
+let attempts = 4;
+let answer = Math.floor(Math.random() * 10);
+
+while (attempts){
+    attempts--;
+    let userGuess = prompt('Guess a number between 0 and 10');
+    if (+userGuess === answer) {
+    alert('Yay you got the answer correct');
+    break;
+    } else if (+userGuess > answer) {
+    alert('Too high');
+    } else {
+    alert('Too low');
+    }
+
+    if (attempts === 0) {
+    alert(`You've run out of quesses the correct number was ${answer}`);
+    }
+}
+
+*/
+
+
