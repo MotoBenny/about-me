@@ -113,9 +113,13 @@ body {
     line-height: 1;
 }
 
-ol,
+ol {
+    list-style: style;
+}
+
+
 ul {
-    list-style: none;
+    list-style-type:circle;
 }
 
 blockquote,
