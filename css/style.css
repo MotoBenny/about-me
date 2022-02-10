@@ -34,7 +34,7 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 400px;
+    min-height: 500px;
     padding: 40px 15vw;
 }
 
@@ -50,3 +50,26 @@ section {
     z-index: -1;
 }
 
+.vacation {
+    color:#edf5e1 ;
+    background-color: #c3073f;
+    align-items: flex-start;
+    font-size: larger;
+    position: relative;
+    shape-margin: 10%;
+}
+
+.work {
+    color:#edf5e1 ;
+    background-color: #c3073f;
+    align-items: left;
+    font-size: larger;
+    margin-left: 60vw;
+}
+
+#intro {
+    position: absolute;
+    top: 25%;
+    text-align: center;
+    font-size: 400%;
+}
