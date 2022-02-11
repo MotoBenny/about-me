@@ -168,6 +168,7 @@ function questionNumb(userName) {
 // If the array doers not contain the users answer, ++ to a counter and prompt the user to guess again. The user should have 6 guesses before the loop exits with a "sorry you didn't get it within 6 guesses." And display contents of the array to show the correct answers.
 //use a for loop to iterate through the array
 
+
 function questionTravel(userName) {
 
     let myArr = ['BRAZIL', 'THAILAND', 'IRELAND', 'CHINA', 'CANADA', 'MEXICO', 'ICELAND'];
