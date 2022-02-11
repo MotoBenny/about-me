@@ -76,7 +76,3 @@ In lab 4. I turned scripts into functions, ensured their funcutionality  and cre
   3. I learned about breaklabel which is a great way to control which level of your loop you break out too. 
 - Consider including the answers to your daily journal and submission questions here
 - This is also a good place to reflect on the tools and resources used and learned
-
-
-
-  
