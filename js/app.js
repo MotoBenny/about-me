@@ -7,7 +7,7 @@
 function capitalizeFirstLetter(string) {
     return string.charAt(0).toUpperCase() + string.slice(1);
 }
-let correctAnswers = 0;
+
 let userName = capitalizeFirstLetter(prompt('Hello and welcome! Whats your name?'));
 alert(`Welcome ${userName}, Here is a handful of questions about me!`);
 let correct = 0;
@@ -26,7 +26,7 @@ function questionCat(userName) {
     if (answerOne === yes || answerOne === y) {
         alert(`I do not ${userName}! I've got a great kitty cat.`);
         //console.log('You are wrong, I dont have a dog.');
-        
+
     } else if (answerOne === no || answerOne === n) {
         alert(`You got it ${userName}! No puppy in my life.`);
         // console.log('Nailed it! I\'ve got a wonderful cat!');
@@ -39,15 +39,8 @@ function questionCat(userName) {
 }
 
 
-function rightAnswers(correct, correctAnswers) {
-    correctAnswers = correctAnswers + correct;
-    //sum of  all correct answers and return that value
-    return correctAnswers;
-}
-rightAnswers(correct, correctAnswers);
-console.log(correctAnswers);
-function questionMarried(userName, correctAnswers) {
-//let correct =0
+function questionMarried(userName, correct) {
+    //let correct =0
     // question two 
     let answerTwo = prompt('Am I married?').toUpperCase();
     const yes = 'YES';
@@ -68,10 +61,9 @@ function questionMarried(userName, correctAnswers) {
     //return correct;
 }
 
-rightAnswers(correct,correctAnswers);
-console.log(correctAnswers);
 
-function questionMusic(userName, correctAnswers) {
+
+function questionMusic(userName, correct) {
     // question three
     let answerThree = prompt('Am I a musician?').toUpperCase();
     const yes = 'YES';
@@ -92,7 +84,7 @@ function questionMusic(userName, correctAnswers) {
     //return correctAnswers;
 }
 
-function questionWa(userName, correctAnswers) {
+function questionWa(userName, correct) {
     // question four
     let answerFour = prompt('Am I a Washington state native?').toUpperCase();
     const yes = 'YES';
@@ -113,7 +105,7 @@ function questionWa(userName, correctAnswers) {
     //return correctAnswers;
 }
 
-function questionAmbi(userName, correctAnswers) {
+function questionAmbi(userName, correct) {
 
 
     // question five
@@ -137,7 +129,7 @@ function questionAmbi(userName, correctAnswers) {
 }
 
 
-function questionNumb(userName, correctAnswers) {
+function questionNumb(userName, correct) {
     // Question Six
 
     let numGuess = prompt(`Okay ${userName} Guess a number between 0 and 10. Whole numbers only!`);
@@ -171,7 +163,7 @@ function questionNumb(userName, correctAnswers) {
 // If the array doers not contain the users answer, ++ to a counter and prompt the user to guess again. The user should have 6 guesses before the loop exits with a "sorry you didn't get it within 6 guesses." And display contents of the array to show the correct answers.
 //use a for loop to iterate through the array
 
-function questionTravel(userName, correctAnswers) {
+function questionTravel(userName, correct) {
 
     let myArr = ['BRAZIL', 'THAILAND', 'IRELAND', 'CHINA', 'CANADA', 'MEXICO', 'ICELAND'];
     let answer = prompt('I\'ve been lucky to tavel a lot in my life. Name one country you think I have traveled too!').toUpperCase();
@@ -211,12 +203,12 @@ function questionTravel(userName, correctAnswers) {
 
 
 questionCat(userName);
-questionMarried(userName, correctAnswers);
-questionMusic(userName, correctAnswers);
-questionWa(userName, correctAnswers);
-questionAmbi(userName, correctAnswers);
-questionNumb(userName, correctAnswers);
-questionTravel(userName, correctAnswers);
+questionMarried(userName, correct);
+questionMusic(userName, correct);
+questionWa(userName, correct);
+questionAmbi(userName, correct);
+questionNumb(userName, correct);
+questionTravel(userName, correct);
 alert(`Okay, ${userName} you got ${correct} out of 7 questions correct!`);
 
 
