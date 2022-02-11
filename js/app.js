@@ -59,6 +59,7 @@ function questionMarried(userName, correct) {
         console.log('Please answer with a yes or no');
     }
     //return correct;
+    console.log(correct);
 }
 
 
@@ -82,6 +83,7 @@ function questionMusic(userName, correct) {
         console.log('Please answer with a yes or no');
     }
     //return correctAnswers;
+    console.log(correct);
 }
 
 function questionWa(userName, correct) {
@@ -103,6 +105,7 @@ function questionWa(userName, correct) {
         console.log('Please answer with a yes or no');
     }
     //return correctAnswers;
+    console.log(correct);
 }
 
 function questionAmbi(userName, correct) {
@@ -126,6 +129,7 @@ function questionAmbi(userName, correct) {
         console.log('Please answer with a yes or no');
     }
     //return correctAnswers;
+    console.log(correct);
 }
 
 
@@ -155,6 +159,7 @@ function questionNumb(userName, correct) {
     }
     alert(`Sorry ${userName}, You've run out of guesses. The correct number was ${correctNum}`);
     //return correctAnswers;
+    console.log(correct);
 }
 
 // question 7
@@ -197,18 +202,19 @@ function questionTravel(userName, correct) {
         } while (answer !== true);
     }
     //return correctAnswers;
+    console.log(correct);
 }
 
 
 
 
 questionCat(userName);
-questionMarried(userName, correct);
-questionMusic(userName, correct);
-questionWa(userName, correct);
-questionAmbi(userName, correct);
-questionNumb(userName, correct);
-questionTravel(userName, correct);
+questionMarried(userName);
+questionMusic(userName);
+questionWa(userName);
+questionAmbi(userName);
+questionNumb(userName);
+questionTravel(userName);
 alert(`Okay, ${userName} you got ${correct} out of 7 questions correct!`);
 
 
