@@ -39,7 +39,7 @@ function questionCat(userName) {
 }
 
 
-function questionMarried(userName, correct) {
+function questionMarried(userName) {
     //let correct =0
     // question two 
     let answerTwo = prompt('Am I married?').toUpperCase();
@@ -64,7 +64,7 @@ function questionMarried(userName, correct) {
 
 
 
-function questionMusic(userName, correct) {
+function questionMusic(userName) {
     // question three
     let answerThree = prompt('Am I a musician?').toUpperCase();
     const yes = 'YES';
@@ -86,7 +86,7 @@ function questionMusic(userName, correct) {
     console.log(correct);
 }
 
-function questionWa(userName, correct) {
+function questionWa(userName) {
     // question four
     let answerFour = prompt('Am I a Washington state native?').toUpperCase();
     const yes = 'YES';
@@ -108,7 +108,7 @@ function questionWa(userName, correct) {
     console.log(correct);
 }
 
-function questionAmbi(userName, correct) {
+function questionAmbi(userName) {
 
 
     // question five
@@ -133,7 +133,7 @@ function questionAmbi(userName, correct) {
 }
 
 
-function questionNumb(userName, correct) {
+function questionNumb(userName) {
     // Question Six
 
     let numGuess = prompt(`Okay ${userName} Guess a number between 0 and 10. Whole numbers only!`);
@@ -168,7 +168,7 @@ function questionNumb(userName, correct) {
 // If the array doers not contain the users answer, ++ to a counter and prompt the user to guess again. The user should have 6 guesses before the loop exits with a "sorry you didn't get it within 6 guesses." And display contents of the array to show the correct answers.
 //use a for loop to iterate through the array
 
-function questionTravel(userName, correct) {
+function questionTravel(userName) {
 
     let myArr = ['BRAZIL', 'THAILAND', 'IRELAND', 'CHINA', 'CANADA', 'MEXICO', 'ICELAND'];
     let answer = prompt('I\'ve been lucky to tavel a lot in my life. Name one country you think I have traveled too!').toUpperCase();
