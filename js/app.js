@@ -118,7 +118,7 @@ alert(`Sorry ${userName}, You've run out of guesses. The correct number was ${co
 
 
 let myArr = ['BRAZIL', 'THAILAND', 'IRELAND', 'CHINA', 'CANADA', 'MEXICO', 'ICELAND'];
-let answer = prompt('I\'ve been lucky to tavel a lot in my life. Name one country you think I have traveled too!').toUpperCase();
+let answer = prompt('Name one country you think I have traveled too!').toUpperCase();
 
 let turn = 0;
 let index = 0;
