@@ -18,56 +18,54 @@
 
 <body>
     <!--This is the main about me section, It includes a short autobiography, my education history, jobs history, and my goals!-->
-    <h1>About Me</h1>
-    <section class="bubble">
-        <h2 id="intro">Introduction</h2>
-        <p>Hello fellow Code Fellows! My name is Benjamin Carter, but you can call me Ben. I am super excited to be
-            here
-            with you all. I don't have a college degree to my name, but I've always found that as long as I am
-            continuously
-            learning, it has not been a hindrance for me. I've spent the last 7 years in IT support in one way or
-            another.
-            Beginning with a job as a technical consultant for Microsoft, that job saw me traveling all over the
-            world to
-            set up and support conferences. After that I did a bit of cyber security consulting for a major
-            healthcare
-            provider, HIPPA compliance and all that. That gig ended after a year or so which saw me head back into
-            PC
-            support as in a hybrid support/administration position. But I've always found myself more interested in
-            programming and building things than just fixing them! My goal is to get a remote job as a software
-            engineer
-            where I am treated with respect and supported in my continued education.</p>
-    </section>
-    <section class="vacation">
-        <h2>My Top Ten list of vacation spots!</h2>
-        <ol>
-            <li class="li">Turkey</li>
-            <li class="li">Morocco</li>
-            <li class="li">Japan</li>
-            <li class="li">Vietnam</li>
-            <li class="li">France</li>
-            <li class="li">Italy</li>
-            <li class="li">India</li>
-            <li class="li">Australia</li>
-            <li class="li">South Africa</li>
-            <li class="li">Norway</li>
-        </ol>
-    </section>
-    <div class="work">
-        <h2>Work Experience</h2>
-        <ul>
-            <li class="li">GlowForge</li>
-            <li class="li">Expeditors International</li>
-            <li class="li">Greggs Cycle Greenlake</li>
-            <li class="li">Premara Blue Cross</li>
-        </ul>
-        <h2>Education</h2>
-        <ul>
-            <li class="li">Python programming Certificate</li>
-            <li class="li">Introduction to programming(NSCC)</li>
-        </ul>
-    </div>
-    <script src="js/app.js"></script>
+    <div class="flexbox-container">
+        <div class="flexbox-item flexbox-item-1">
+            <h1>About Me</h1>
+            <p>Hello fellow Code Fellows! My name is Benjamin Carter, but you can call me Ben. I am super
+                excited to be here with you all. I don't have a college degree to my name, but I've always found
+                that as long as I am continuously learning, it has not been a hindrance for me. I've spent the
+                last 7 years in IT support in one way or another. Beginning with a job as a technical consultant
+                for Microsoft, that job saw me traveling all over the world to set up and support conferences.
+                After that I did a bit of cyber security consulting for a major healthcare provider, HIPPA
+                compliance and all that. That gig ended after a year or so which saw me head back into PC
+                support as in a hybrid support/administration position. But I've always found myself more
+                interested in programming and building things than just fixing them! My goal is to get a remote
+                job as a software engineer where I am treated with respect and supported in my continued
+                education </p>
+        </div>
+        <div class="vacationContainer">
+            <section id="vacation">
+                <h2>My Top Ten list of vacation spots!</h2>
+                <ol id="vacList">
+                    <li>Turkey</li>
+                    <li>Morocco</li>
+                    <li>Japan</li>
+                    <li>Vietnam</li>
+                    <li>France</li>
+                    <li>Italy</li>
+                    <li>India</li>
+                    <li>Australia</li>
+                    <li>South Africa</li>
+                    <li>Norway</li>
+                </ol>
+            </section>
+        </div>
+        <div class="flexbox-item flexbox-item-3">
+            <div class="work">
+                <h2>Work Experience</h2>
+                <ul>
+                    <li>GlowForge</li>
+                    <li>Expeditors International</li>
+                    <li>Greggs Cycle Greenlake</li>
+                    <li>Premara Blue Cross</li>
+                </ul>
+                <h2>Education</h2>
+                <ul>
+                    <li>Python programming Certificate</li>
+                    <li>Introduction to programming(NSCC)</li>
+                </ul>
+            </div>
+        </div>
+        <script src="js/app.js"></script>
 </body>
-
 </html>
